@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Playwrite+NZ:wght@100..400&display=swap');
+* {
+    font-family: Montserrat;
+}
+
+.logo {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     img {
+        width: 65px;
+        height: 65px;
+        }
+}
+
+.logo_txt {
+     font-size: 15px;
+     style: GoogleFonts.montserrat();
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.navigation {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+a:hover {
+    color: #90EE90;
+}
