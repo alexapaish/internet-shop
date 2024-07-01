@@ -1,24 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Playwrite+NZ:wght@100..400&display=swap');
+
 * {
     font-family: Montserrat;
 }
 
 .logo {
+    padding-bottom: 10px;
      display: flex;
      align-items: center;
      justify-content: center;
      img {
-        width: 65px;
-        height: 65px;
+        width: 75px;
+        height: 75px;
         }
-}
-
-.logo_txt {
-     font-size: 15px;
-     style: GoogleFonts.montserrat();
-     display: flex;
-     align-items: center;
-     justify-content: center;
 }
 
 .navigation {
@@ -28,6 +22,45 @@
     justify-content: center;
 
 }
+.photo {
+    img {
+        width: 100%;
+        height: 540px;
+        }
+}
+
+.product {
+    img {
+        padding: 10px;
+        max-width: 300px;
+        max-height: 300px;
+    }
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    width: 70%;
+}
+.productList {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button:hover {
+    color: white;
+    background-color: #04aa6d;
+    border: none;
+}
+
+.priceSection {
+    width: 500px;
+    text-align: center;
+    margin-left: 20px;
+}
+
 a {
     margin-right: 50px;
     text-decoration: none;
@@ -36,5 +69,5 @@ a {
 }
 
 a:hover {
-    color: #90EE90;
+    color: #C0C0C0;
 }
