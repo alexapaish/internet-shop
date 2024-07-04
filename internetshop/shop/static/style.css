@@ -49,6 +49,18 @@
     align-items: center;
 }
 
+button {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid #d6d6d6;
+    color: #060606;
+    padding: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
 button:hover {
     color: white;
     background-color: #04aa6d;
@@ -60,14 +72,47 @@ button:hover {
     text-align: center;
     margin-left: 20px;
 }
-
 a {
+    text-decoration: none;
+    color: black;
+}
+
+.navlink {
     margin-right: 50px;
     text-decoration: none;
     color: black;
     font-size: 22px;
 }
 
-a:hover {
+.navlink:hover {
     color: #C0C0C0;
+}
+
+.productCard {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.productDetails {
+
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productImage{
+    max-width: 800px;
+    max-height: 800px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.charrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
