@@ -1,2 +1,4 @@
-API_TOKEN = '7393658170:AAE0wbuo2j1JAxXvKDJgqgKEVQuwSQic_BQ'
-CHAT_ID = 692084577
+import os
+
+API_TOKEN = os.getenv('API_TOKEN')
+CHAT_ID = os.getenv('CHAT_ID')
