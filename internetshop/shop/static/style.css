@@ -143,3 +143,11 @@ a {
     border-radius: 10px;
     border: 2px solid #a6a6a6;
 }
+
+.textGreen {
+    color: #04aa6d;
+}
+
+.textRed {
+    color: #aa0404;
+}
