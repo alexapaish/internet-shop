@@ -1,6 +1,6 @@
+import telebot
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
-import telebot
 from .models import Product, Review
 
 from .config import API_TOKEN, CHAT_ID
