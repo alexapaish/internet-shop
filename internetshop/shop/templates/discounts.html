@@ -12,26 +12,3 @@
     <a class = "navlink" href="/gift_cards">подарочные карты</a>&emsp;&emsp;&emsp;
     <a class = "navlink" href="/client_days">клиентские дни</a>
 </div>
-
-<div class="photo">
-    <img src="https://i.postimg.cc/1tfFkszQ/vmake.jpg">
-</div>
-
-<div class="productList">
-    {% for product in products %}
-<div class="product">
-
-    <img src="{{ product.image_url }}">
-    <div>
-        <a href="/product/{{ product.id }}"><h2>{{ product.name }}</h2></a>
-        <p>{{ product.description }}</p>
-    </div>
-    <div class="priceSection">
-        <h3>{{ product.price }} ₽</h3>
-         <a href="/payment/{{ product.id }}">
-            <button>Купить</button>
-        </a>
-    </div>
-</div>
-    {% endfor %}
-</div>

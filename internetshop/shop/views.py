@@ -51,3 +51,14 @@ def payment(request, id):
 
 def payment_success(request):
     return render(request, 'success.html')
+def products(request):
+    products = Product.objects.all()
+    return render(request, 'products.html', {
+        'products': products
+    })
+def discounts(request):
+    return render(request, 'discounts.html')
+def gift_cards(request):
+    return render(request, 'gift_cards.html')
+def client_days(request):
+    return render(request, 'client_days.html')
